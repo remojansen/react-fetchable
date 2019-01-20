@@ -1,6 +1,6 @@
 {
   "name": "react-fetchable",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0",
   "description": "Data fetching in React the functional way powered by TypeScript, io-ts & fp-ts",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
