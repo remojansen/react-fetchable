@@ -1,0 +1,1 @@
+export { Fetchable } from "./featchable";

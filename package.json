@@ -1,0 +1,34 @@
+{
+  "name": "react-fetchable",
+  "version": "1.0.0-alpha.1",
+  "description": "Data fetching in React the functional way powered by TypeScript, io-ts & fp-ts",
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remojansen/react-fetchable.git"
+  },
+  "keywords": [
+    "react",
+    "data",
+    "fetching",
+    "loading"
+  ],
+  "author": "Remo H. Jansen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remojansen/react-fetchable/issues"
+  },
+  "homepage": "https://github.com/remojansen/react-fetchable#readme",
+  "dependencies": {
+    "@types/react": "16.7.20",
+    "fp-ts": "1.12.3",
+    "io-ts": "1.6.4",
+    "io-ts-reporters": "0.0.21",
+    "react": "16.7.0"
+  }
+}
