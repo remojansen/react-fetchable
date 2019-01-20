@@ -4,7 +4,7 @@ Data fetching in React the functional way powered by TypeScript, io-ts &amp; fp-
 
 ## What is this?
 
-This small library uses the encoding and decoding capabilities of [io-ts](https://github.com/gcanti/io-ts) and the algebraic data types of [fp-ts[(https://github.com/gcanti/fp-ts) to provide developers with a type-safe and declarative data fetching API for React applications:
+This small library uses the encoding and decoding capabilities of [io-ts](https://github.com/gcanti/io-ts) and the algebraic data types of [fp-ts](https://github.com/gcanti/fp-ts) to provide developers with a type-safe and declarative data fetching API for React applications:
 
 ```ts
 <Fetchable
@@ -28,6 +28,8 @@ This small library uses the encoding and decoding capabilities of [io-ts](https:
 Loading data in React it is a very repetitive and tedious task. If that wasn't bad enough, the data contained in an HTTP response could be completely different from what we are expecting. 
 
 The type-unsafe nature of fetch calls is particularly dangerous for TypeScript users because it compromises many of the benefits of TypeScript.
+
+You can read [***Data fetching in React the functional way powered by TypeScript, io-ts & fp-ts***](https://dev.to/remojansen/data-fetching-in-react-the-functional-way-powered-by-typescript-io-ts--fp-ts-ojf) fo find out more.
 
 ## Installation
 
