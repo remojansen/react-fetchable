@@ -1,4 +1,4 @@
-import * as io from "io-ts";
+import { Type } from "io-ts";
 import React from "react";
 import { Either, Left } from "fp-ts/lib/Either";
 import { fetchJson } from "./client";
@@ -7,7 +7,7 @@ import { Remote } from "./remote";
 interface FetchableProps<T, O, I> {
     url: string;
     init?: RequestInit,
-    validator: io.Type<T, O, I>
+    validator: Type<T, O, I>
     loading: () => JSX.Element,
     error: (error: Error) => JSX.Element,
     success: (data: T) => JSX.Element
